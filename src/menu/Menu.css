@@ -1,0 +1,45 @@
+.navBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.25s;
+}
+
+.navBar ul{
+    position: relative;
+    display: flex;
+}
+
+.navBar ul li{
+    position: relative;
+    list-style: none;
+}
+
+.navBar ul li a{
+    position: relative; 
+    display: inline-block;
+    margin: 0px 15px;
+    color: white; 
+    text-decoration: none;
+}
+
+#logo{
+    font-family: 'Orelega One', cursive;
+    color: white; 
+}
+
+.whiteNav .navBar{
+    background: rgba(255,255,255,0.9);
+    padding: 10px 100px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+}
+
+.whiteNav .navBar #logo, .whiteNav .navBar ul li a{
+    color: #111;
+}

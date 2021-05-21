@@ -1,0 +1,41 @@
+.heading{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+    color: #0D1117;
+}
+
+.heading h1{
+    font-weight: 900;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.contentText{
+    font-size: 24px;
+    margin-bottom: 8px;
+    padding-right: 100px;
+    text-justify: auto;
+}
+
+.habilities{
+    background: #0D1117;
+    background-size: cover;
+    background-position: right;
+    min-height: 75vh;
+}
+
+.habilities .heading, .habilities .contentText{
+    color: white;
+    align-items: left;
+    text-justify: auto;
+}
+
+.hobby{
+    background-size: cover;
+    background-position: right;
+    min-height: 75vh;
+}
